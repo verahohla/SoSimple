@@ -1,3 +1,2 @@
-lib_PIC,111 
-if (F[f].Dir>0 && New>F[f].P+ATR*Power) {F[f].Brk=MIRROR;} // глубокий пробой   V(DTIME(Time[bar+PicPer])+"/"+S4(FrntVal), F[f].P, SHIFT(F[f].T), clrBlue);
-if (F[f].Dir<0 && New<F[f].P-ATR*Power) {F[f].Brk=MIRROR;} // сонаправленным пиком  
+
+второй подход к уровню при входе фильтр отсутствует
